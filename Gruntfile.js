@@ -13,7 +13,13 @@ module.exports = function (grunt) {
 	});
 
 
-	require('./time-grunt')(grunt);
+	require('./time-grunt')(grunt, {
+		timestamp_color: 'yellow',
+		time_color: 'magenta',
+		bar_color: 'cyan',
+		total_color: 'red'
+	});
+
 
 	grunt.registerTask('test', function () {
 		setTimeout(this.async(), 1200);
