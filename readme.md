@@ -4,6 +4,7 @@
 
 ![screenshot](screenshot.png)
 
+This is a fork of time-grunt with support for configurable color output.
 
 ## Install
 
